@@ -425,7 +425,7 @@ export default function PremiumServicesHeader() {
             onClick={() => setMobileMenuOpen(false)}
           >
             <motion.div 
-              className="fixed right-0 top-0 h-full w-72 bg-white shadow-2xl py-4 px-6"
+              className="fixed right-0 top-0 h-full w-72 bg-white shadow-2xl py-4 px-6 overflow-auto"
               initial={{ x: "100%" }}
               animate={{ 
                 x: 0,
