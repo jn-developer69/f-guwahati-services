@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import InterlockingApplianceRepairHeader from './components/header'
+import PremiumServicesHeader from './components/header'
 // import EcommerceApp from './EcommerceApp'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <InterlockingApplianceRepairHeader /> 
+      <PremiumServicesHeader /> 
     </>
   )
 }
