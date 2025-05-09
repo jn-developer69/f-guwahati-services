@@ -1,4 +1,5 @@
 import {Hero, Services, OurArea, LatestVideosImages} from '@/Import';
+import { TestimonialCarousel } from "../Import";
 
 export default function Home(){
     return(
@@ -7,6 +8,7 @@ export default function Home(){
         <Services/>
         <OurArea/>
         <LatestVideosImages/>
+        <TestimonialCarousel />
         </>
     )
 }
