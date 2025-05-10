@@ -322,7 +322,7 @@ export default function PremiumServicesHeader() {
                   whileHover={{ scale: 1.1 }}
                 >
                   <FileText size={18} className="mb-1" />
-                  <span className="text-sm">Blog</span>
+                  <span className="text-sm">Videos</span>
                 </motion.button>
                 <motion.div 
                   className="absolute bottom-0 left-0 w-full h-0.5 bg-purple-600 rounded-full"
